@@ -1,0 +1,27 @@
+[submodule "pack/plugins/start/syntastic"]
+	path = pack/plugins/start/syntastic
+	url = https://github.com/vim-syntastic/syntastic
+[submodule "pack/plugins/start/vim-sensible"]
+	path = pack/plugins/start/vim-sensible
+	url = https://github.com/tpope/vim-sensible
+[submodule "pack/plugins/start/deoplete"]
+	path = pack/plugins/start/deoplete
+	url = https://github.com/Shougo/deoplete.nvim
+[submodule "pack/plugins/start/nvim-yarp"]
+	path = pack/plugins/start/nvim-yarp
+	url = https://github.com/roxma/nvim-yarp
+[submodule "pack/plugins/start/vim-hug-neovim-rpc"]
+	path = pack/plugins/start/vim-hug-neovim-rpc
+	url = https://github.com/roxma/vim-hug-neovim-rpc
+[submodule "pack/plugins/opt/vim-scala"]
+	path = pack/plugins/opt/vim-scala
+	url = https://github.com/derekwyatt/vim-scala
+[submodule "pack/plugins/start/vim-airline"]
+	path = pack/plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/plugins/start/typescript-vim"]
+	path = pack/plugins/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "pack/plugins/start/vim-fugitive"]
+	path = pack/plugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
