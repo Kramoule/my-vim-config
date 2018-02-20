@@ -9,6 +9,10 @@ augroup END " }"
 
 let mapleader=","
 
+set tabstop=4
+set softtabstop=0 noexpandtab
+set shiftwidth=4
+
 set showbreak=↪
 let g:deoplete#enable_at_startup = 1
 
