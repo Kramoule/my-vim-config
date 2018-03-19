@@ -31,3 +31,6 @@
 [submodule "pack/plugins/start/vim-snippets"]
 	path = pack/plugins/start/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "pack/plugins/start/vimtex"]
+	path = pack/plugins/start/vimtex
+	url = https://github.com/lervag/vimtex.git
