@@ -7,6 +7,8 @@ augroup reload_vimrc " {
 	autocmd BufWritePost $MYVIMRC source $MYVIMRC
 augroup END " }"
 
+nmap =j :%!python -m json.tool<CR>
+
 let mapleader=","
 
 set tabstop=4
