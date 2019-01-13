@@ -2,9 +2,9 @@
 
 For Deoplete, install neovim via pip3
 
-    ```
-    pip3 install neovim
-    ```
+```
+pip3 install neovim
+```
 
 ## Replicating the repository on a machine
 - Clone the repository (_recursively_ to clone plugins as well):
