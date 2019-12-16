@@ -1,13 +1,13 @@
-
-syntax on
+set encoding=utf-8
 filetype plugin indent on
+syntax on
 
 augroup reload_vimrc " {
 	autocmd!
 	autocmd BufWritePost $MYVIMRC source $MYVIMRC
 augroup END " }"
 
-nmap =j :%!python -m json.tool<CR>
+nmap =j :%!python -m json.tool
 
 let mapleader=","
 
