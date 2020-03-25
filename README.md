@@ -10,7 +10,7 @@ pip3 install neovim
 - Clone the repository (_recursively_ to clone plugins as well):
 
     ```
-    git clone --recursive https://github.com/username/reponame.git
+    git clone --recursive git@github.com:Kramoule/my-vim-config.git
     ```
 
 - Symlink `.vim` and `.vimrc`:
