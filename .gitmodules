@@ -33,4 +33,4 @@
 	url = https://github.com/lervag/vimtex.git
 [submodule "pack/plugins/start/surround"]
 	path = pack/plugins/start/surround
-	url = https://tpope.io/vim/surround.git
+	url = https://github.com/tpope/vim-surround.git
