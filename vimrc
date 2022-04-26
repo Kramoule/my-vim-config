@@ -7,7 +7,13 @@ augroup reload_vimrc " {
 	autocmd BufWritePost $MYVIMRC source $MYVIMRC
 augroup END " }"
 
+augroup XML
+    autocmd!
+    autocmd FileType xml setlocal foldmethod=indent foldlevelstart=999 foldminlines=0
+augroup END
+
 nmap =j :%!python -m json.tool
+nmap =x :%!python3 -c "import xml.dom.minidom, sys; print(xml.dom.minidom.parse(sys.stdin).toprettyxml())";
 
 let mapleader=","
 
