@@ -6,13 +6,13 @@ FILEPATH=$(addprefix $(INSTALL_FOLDER), $(FILENAME))
 .SILENT: help
 
 help:
-	echo "Usage:\n"
+	echo -e "Usage:\n"
 	echo "make install"
-	echo "\tCreate a symbolic link .vimrc into the home directory"
+	echo -e "\tCreate a symbolic link .vimrc into the home directory"
 	echo "make uninstall"
-	echo "\tRemove the .vimrc located in the home directory"
+	echo -e "\tRemove the .vimrc located in the home directory"
 	echo "make update-modules"
-	echo "\tUpdate all the modules"
+	echo -e "\tUpdate all the modules"
 
 install: $(FILEPATH)
 
